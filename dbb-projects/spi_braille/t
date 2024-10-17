@@ -1,0 +1,686 @@
+60c60
+< CMAKE_SOURCE_DIR = /home/deane/pico/dbb-projects/spi_braille
+---
+> CMAKE_SOURCE_DIR = /home/deane/pico/dbb-projects/rtos_braille
+63c63
+< CMAKE_BINARY_DIR = /home/deane/pico/dbb-projects/spi_braille
+---
+> CMAKE_BINARY_DIR = /home/deane/pico/dbb-projects/rtos_braille
+90c90
+< 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deane/pico/dbb-projects/spi_braille/CMakeFiles /home/deane/pico/dbb-projects/spi_braille//CMakeFiles/progress.marks
+---
+> 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deane/pico/dbb-projects/rtos_braille/CMakeFiles /home/deane/pico/dbb-projects/rtos_braille//CMakeFiles/progress.marks
+92c92
+< 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deane/pico/dbb-projects/spi_braille/CMakeFiles 0
+---
+> 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deane/pico/dbb-projects/rtos_braille/CMakeFiles 0
+120c120
+< # Target rules for targets named spi_braille
+---
+> # Target rules for targets named rtos_braille
+123,125c123,125
+< spi_braille: cmake_check_build_system
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spi_braille
+< .PHONY : spi_braille
+---
+> rtos_braille: cmake_check_build_system
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rtos_braille
+> .PHONY : rtos_braille
+128,130c128,130
+< spi_braille/fast:
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/build
+< .PHONY : spi_braille/fast
+---
+> rtos_braille/fast:
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/build
+> .PHONY : rtos_braille/fast
+189c189
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/braille.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/braille.c.obj
+197c197
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/braille.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/braille.c.i
+205c205
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/braille.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/braille.c.s
+213c213
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
+221c221
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.i
+229c229
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.s
+237c237
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
+245c245
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.i
+253c253
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.s
+261c261
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
+269c269
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.i
+277c277
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.s
+285c285
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
+293c293
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.i
+301c301
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.s
+309c309
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
+317c317
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.i
+325c325
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.s
+333c333
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
+341c341
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.i
+349c349
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.s
+357c357
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
+365c365
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.i
+373c373
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.s
+381c381
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
+389c389
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.i
+397c397
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.s
+405c405
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
+413c413
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.i
+421c421
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.s
+429c429
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
+437c437
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.i
+445c445
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.s
+453c453
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
+461c461
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.i
+469c469
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.s
+477c477
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+485c485
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+493c493
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+501c501
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
+509c509
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.i
+517c517
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.s
+525c525
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
+533c533
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
+541c541
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.i
+549c549
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.s
+557c557
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
+565c565
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.i
+573c573
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.s
+581c581
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+589c589
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
+597c597
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.i
+605c605
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.s
+613c613
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_spi/spi.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_spi/spi.c.obj
+621c621
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_spi/spi.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_spi/spi.c.i
+629c629
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_spi/spi.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_spi/spi.c.s
+637c637
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
+645c645
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.i
+653c653
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.s
+661c661
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+669c669
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+677c677
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+685c685
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
+693c693
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.i
+701c701
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.s
+709c709
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
+717c717
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.i
+725c725
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.s
+733c733
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
+741c741
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.i
+749c749
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.s
+757c757
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
+765c765
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.i
+773c773
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.s
+781c781
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+789c789
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.i
+797c797
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.s
+805c805
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
+813c813
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.i
+821c821
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.s
+829c829
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
+837c837
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.i
+845c845
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.s
+853c853
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+861c861
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+869c869
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.i
+877c877
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.s
+885c885
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+893c893
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+901c901
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+909c909
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+917c917
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+925c925
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+933c933
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
+941c941
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+949c949
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+957c957
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+965c965
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+973c973
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+981c981
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+989c989
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+997c997
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+1005c1005
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
+1013c1013
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.i
+1021c1021
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.s
+1029c1029
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+1037c1037
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+1045c1045
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+1053c1053
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+1061c1061
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+1069c1069
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
+1077c1077
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.i
+1085c1085
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.s
+1093c1093
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+1101c1101
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+1109c1109
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
+1117c1117
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.i
+1125c1125
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.s
+1133c1133
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+1141c1141
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
+1149c1149
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.i
+1157c1157
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.s
+1165c1165
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
+1173c1173
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.i
+1181c1181
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.s
+1189c1189
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
+1197c1197
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.i
+1205c1205
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.s
+1213c1213
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+1221c1221
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
+1229c1229
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
+1237c1237
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+1245c1245
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+1253c1253
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+1261c1261
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+1269c1269
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+1277c1277
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+1285c1285
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+1293c1293
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+1301c1301
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+1309c1309
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
+1317c1317
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.i
+1325c1325
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.s
+1333c1333
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+1341c1341
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+1349c1349
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+1357c1357
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
+1365c1365
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.i
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.i
+1373c1373
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.s
+---
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/home/deane/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.s
+1376,1377c1376,1377
+< spi_braille.obj: spi_braille.c.obj
+< .PHONY : spi_braille.obj
+---
+> rtos_braille.obj: rtos_braille.c.obj
+> .PHONY : rtos_braille.obj
+1380,1382c1380,1382
+< spi_braille.c.obj:
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/spi_braille.c.obj
+< .PHONY : spi_braille.c.obj
+---
+> rtos_braille.c.obj:
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/rtos_braille.c.obj
+> .PHONY : rtos_braille.c.obj
+1384,1385c1384,1385
+< spi_braille.i: spi_braille.c.i
+< .PHONY : spi_braille.i
+---
+> rtos_braille.i: rtos_braille.c.i
+> .PHONY : rtos_braille.i
+1388,1390c1388,1390
+< spi_braille.c.i:
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/spi_braille.c.i
+< .PHONY : spi_braille.c.i
+---
+> rtos_braille.c.i:
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/rtos_braille.c.i
+> .PHONY : rtos_braille.c.i
+1392,1393c1392,1393
+< spi_braille.s: spi_braille.c.s
+< .PHONY : spi_braille.s
+---
+> rtos_braille.s: rtos_braille.c.s
+> .PHONY : rtos_braille.s
+1396,1398c1396,1398
+< spi_braille.c.s:
+< 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spi_braille.dir/build.make CMakeFiles/spi_braille.dir/spi_braille.c.s
+< .PHONY : spi_braille.c.s
+---
+> rtos_braille.c.s:
+> 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos_braille.dir/build.make CMakeFiles/rtos_braille.dir/rtos_braille.c.s
+> .PHONY : rtos_braille.c.s
+1412c1412
+< 	@echo "... spi_braille"
+---
+> 	@echo "... rtos_braille"
+1562,1564c1562,1564
+< 	@echo "... spi_braille.obj"
+< 	@echo "... spi_braille.i"
+< 	@echo "... spi_braille.s"
+---
+> 	@echo "... rtos_braille.obj"
+> 	@echo "... rtos_braille.i"
+> 	@echo "... rtos_braille.s"

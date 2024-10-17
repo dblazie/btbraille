@@ -1,0 +1,5 @@
+/home/deane/pico/dbb-projects/rtos_braille/_deps/picotool/picotool
+/home/deane/pico/dbb-projects/rtos_braille/_deps/picotool/picotoolTargets.cmake
+/home/deane/pico/dbb-projects/rtos_braille/_deps/picotool/picotoolTargets-release.cmake
+/home/deane/pico/dbb-projects/rtos_braille/_deps/picotool/picotoolConfig.cmake
+/home/deane/pico/dbb-projects/rtos_braille/_deps/picotool/picotoolConfigVersion.cmake
